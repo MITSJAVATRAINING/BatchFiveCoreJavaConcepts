@@ -3,7 +3,7 @@ package eatables;
 public class Fruit {
 
 	// data 
-	String name; 
+	static String name; 
 	String shape;
 	String taste;
 	
@@ -26,7 +26,8 @@ public class Fruit {
 		Fruit apple = new Fruit("Apple", "round", "sweet");
 		Fruit orange = new Fruit("Orange", "round", "sour");
 		
-
+		System.out.println(orange.name);
+		System.out.println(apple.name);
 		apple.printFruit();
 
 		

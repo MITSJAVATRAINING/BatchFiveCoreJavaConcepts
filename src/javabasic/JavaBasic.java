@@ -7,6 +7,10 @@ public class JavaBasic {
 	String name = "Shaleen"; // wrapper class
 	double salary = 10.5; // Double class
 	boolean isEmployee = true;
+	
+	public void divison(int a, int b) {
+		System.out.println(a/b);
+	}
 
 	public void sum(int a, int b) {
 //		int a = 10;
