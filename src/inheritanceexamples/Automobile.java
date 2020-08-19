@@ -2,7 +2,7 @@ package inheritanceexamples;
 
 public abstract class Automobile {
 
-	String name;
+	protected String name;
 	int noOfWheels;
 	
 	public abstract void setAutomobileName(String name);
@@ -12,4 +12,5 @@ public abstract class Automobile {
 	public void setNoOfWheels(int number) {
 		this.noOfWheels = number;
 	}
+	
 }
